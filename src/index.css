@@ -1,0 +1,121 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:#eee !important;
+  overflow-x: hidden !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*,body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html, body,#root {overflow:auto;height: auto;}
+
+a{
+  text-decoration: none !important;
+}
+
+button , input , textarea{
+  border: none;
+  outline: none;
+}
+
+/* possition */
+
+.full-center{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 1;
+}
+
+/* size */
+
+/* color */
+.bg-inhrit{
+background: inherit !important;
+}
+.custom-broun{
+ background:#af9a7d !important
+}
+.custom-broun-color{
+  color:#af9a7d !important;
+}
+/* margin */
+.row{
+  --bs-gutter-x:0 !important
+}
+.marginTop{
+  margin-top: 3rem !important;
+}
+.marginBottom{
+  margin-bottom: 3rem !important;
+}
+ /* element */ 
+
+.Skeleton-container  > span{
+  width: 100%;
+  height: 100%;
+  border:1px solid #ddd;
+}
+.Skeleton-container  span {
+  display: block;
+}
+
+ul{
+  list-style: none;  
+}
+
+h1{
+  font-size: calc(2rem + 1vw) !important;
+}
+
+h1,h2,h3,h4,h5,h6{line-height: 1.5rem}
+
+.cover-content{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  width: 90%;
+  max-width: 500px;
+  transform: translate(-50%,-50%);
+
+  background:rgb(0 0 0 / 41%);
+  color:rgb(255 255 255)
+}
+
+.room-dropDown{
+  transform: scale3d(1,0,1);
+}
+
+@media only screen and (max-width: 450px) {
+  h1{
+    font-size: calc(1.5rem + .5vw) !important;
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+  .cover-content{
+    width: 100% !important ;
+    min-width: 100% !important;
+  }
+}
+
+input[type="number"]:not([name='duration']){
+  border: .5px solid #ccc !important;
+  max-width: fit-content;
+  text-align: center;
+}
