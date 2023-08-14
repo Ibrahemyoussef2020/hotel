@@ -3,7 +3,7 @@
     padding: 10px;
     border-radius: 20px;
 
-    background-image: url('room-2.webp');
+    background-image: url('../../../../public/images/room-2.webp');
     background-size: cover;
     background-position: 50% 50%;
 }
