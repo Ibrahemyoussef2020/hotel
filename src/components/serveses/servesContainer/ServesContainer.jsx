@@ -42,7 +42,7 @@ const ServesContainer = () => {
 
 
   return (
-    <section className='Serves py-3'
+    <section className='Serves py-3 mb-4'
         style={{background:'#99999936',overflow:'hidden'}}
     >
         <div>

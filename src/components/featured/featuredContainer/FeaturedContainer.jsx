@@ -15,7 +15,7 @@ const FeaturedContainer = () => {
 
     if(!data.length){
         return(
-        <section id='featured' className='w-100'>
+        <section id='featured' className='w-100 bg-white'>
         <div><h3 className='text-center py-4'>Featured Rooms</h3></div>
         <UnderLine/>  
           <div className={`row text-center bg-inhrit`} style={{justifyContent:'center'}}>
@@ -38,7 +38,7 @@ const FeaturedContainer = () => {
 
     
   return (
-    <section id='featured' className='w-100'>
+    <section id='featured' className='w-100 bg-white'>
         <div><h3 className='text-center py-4'>Featured Rooms</h3></div>
         <UnderLine/>
         <div className="row justify-content-around">
